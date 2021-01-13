@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    integrity="sha256-461ynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/986b456647.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type= "text/css" href="stylesheet.css" >
+
+</head>
+<body>
+    <header>
+        <div class= "logo">
+       
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+  
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"> <a href="#home" class="nav__link">Home</a></li>
+            <li class="nav__item"> <a href="#services" class="nav__link">My Services</a></li>
+            <li class="nav__item"> <a href="#about" class="nav__link">About Me</a></li>
+            <li class="nav__item"> <a href="#work" class="nav__link">My Work</a></li>
+
+        </ul>
+    </nav>  
+</header> 
+
+    <!--Introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Nicole Carlson</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Game Dev & Animation</p>
+        <img src = "Img/IMG_6646 2.JPG" alt="A picture of Nicole smiling" class="intro__img">
+    </section>
+
+    <!-- My Services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services"> What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Animation</h3>
+                <p> I have spent the past 7 years honing my animation abilities. I minored in Animation at San Francisco State University and am confident with Tv Paint, Photoshop, Premiere Pro, and After Affects </p>
+
+            </div> <!-- / service-->
+     
+        <div class="service">
+                <h3>Game Development</h3>
+                <p> I have been building video games for the past two years. I have built single player and multiplayer games using both Java and Unity </p>
+    
+        </div> <!-- / service-->
+          
+            <div class="service">
+                <h3>Programming</h3>
+                <p> I minored in Computing Applications at San Francisco State University and have been creating and debugging code for 3 years. I have worked with Java, JavaScript, C#, and Git </p>
+        
+        </div><!-- / service-->
+        </div><!-- / service-->
+       <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!--About Me-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Game Developer and Animator based in SF</p>
+
+        <div class="about-me__body">
+            <p>I grew up in Hawaii spending most of my freetime watching gameplays and playing what little video games I could afford. I eventually went on to attend San Francisco State University in pursuance a Bachelor's Degree in Cinema with a double Minor in Computing Applications and Animation with the intention of becoming an animator.</p>
+            <p>As much as I loved animation, I also loved problem solving. So, I decided to take my favorite childhood past time and my greatest passions and gear myself towards a career in Game Development and Animation.</p>
+        </div>
+        <img src="Img/IMG_8394.JPG" alt="Nicole Outside" class="about-me__img">
+    </section>
+
+    <!--My Work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+        <div class="portfolio">
+            <!--Portfolio item 01-->
+            <a href="portolio-item.html" class="portfolio__item">
+                <img src="img/CUBERUSHLOGO.png" alt="cube" class="portfolio__img"><p class="img__description">Unity Video Game</p></a>
+                <!--Portfolio item 02-->
+            <a href="https://ncarlsanimates.myportfolio.com/the-sunflower" class="portfolio__item">
+                <img src="img/76D1D897-BE79-4A60-B350-D05569BD6E94.gif" alt="gif" class="portfolio__img"><p class="img__description">Animation Reel</p></a>
+                <!--Portfolio item 03-->
+            <a href="https://ncarlsanimates.myportfolio.com/traditional-art" class="portfolio__item">
+                <img src="img/F244EEAC-CD2F-4256-A045-11D9B61976F0.JPEG" alt="paint" class="portfolio__img">
+                <p class="img__description">Traditional Art</p>
+            </a>
+            
+              <a href="https://ncarlsanimates.myportfolio.com/paintings" class="portfolio__item">
+                <img src="img/4959F143-D227-4C84-9D32-1670603AFFFA.JPG" alt="paint" class="portfolio__img" ><p class="img__description">Figure Paintings</p></a>  
+              
+                <a href="portfolio-item-3.html" class="portfolio__item">
+                    <img src="img/RainbowReefIntro.png" alt="Tank-Game" class="portfolio__img"><p class="img__description">Rainbow Reef Game</p></a>
+                
+                    <a href="portfolio-item-2.html" class="portfolio__item">
+                <img src="img/TankIntro.png" alt="Tank-Game" class="portfolio__img"><p class="img__description">Java Tank Game</p></a>
+                
+        </div>
+    </section>
+    <!--Footer-->
+    <footer class="footer">
+        <a href="mailto:nicolencarlson@gmail.com" class="footer-link">nicolencarlson@gmail.com</a>
+        <ul class="social-list">
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://www.instagram.com/ncarls_arts/">
+                <i class="fab fa-instagram"></i></i>
+            </a>
+            </li>
+        <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/nicole-carlson-59213a17a/">
+            <i class="fab fa-linkedin"></i>
+            </a>
+            </li>
+        <li class="social-list__item"><a class="social-list__link" href="https://github.com/NicoleCarlson123">
+            <i class="fab fa-github"></i>
+            </a>
+            </li>
+    </ul>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
